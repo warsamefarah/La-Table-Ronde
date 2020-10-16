@@ -18,7 +18,29 @@ body {
 }
 
 .one {
-    background: green;
+    background: rgb(192, 163, 140);
+    width: calc(100vw - 150px);
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: start;
+    color: white;
+}
+
+.one h1 {
+    width: 100%;
+    font-size: 80px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+
+.one a {
+    width: 100%;
+    font-size: 30px;
+    padding-left: 500px;
+    color: white;
 }
 
 .two {
@@ -63,9 +85,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    height: 100vh;
     padding: 0;
     margin: 0;
+}
+
+.ul1 {
+    height: 70vh;
+}
+
+.ul2 {
+    height: 20vh;
+    align-items: end;
 }
 
 li {
