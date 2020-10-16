@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     height: 100vh;
+    background: url(img/papier2.jpg);
 }
 
 ::-webkit-scrollbar {
@@ -18,14 +19,12 @@ body {
 }
 
 .one {
-    background: rgb(192, 163, 140);
     width: calc(100vw - 150px);
     margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     align-content: start;
-    color: white;
 }
 
 .one h1 {
@@ -40,20 +39,14 @@ body {
     width: 100%;
     font-size: 30px;
     padding-left: 500px;
-    color: white;
+    color: black;
 }
 
-.two {
-    background: red;
-}
+.two {}
 
-.three {
-    background: blue;
-}
+.three {}
 
-.four {
-    background: pink;
-}
+.four {}
 
 main {
     width: 100vh;
@@ -75,7 +68,7 @@ main {
 nav {
     width: 150px;
     height: 100vh;
-    background: yellow;
+    background: #D7C5AB;
     position: fixed;
     left: 0;
     z-index: 3;
