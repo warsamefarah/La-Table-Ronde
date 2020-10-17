@@ -42,12 +42,6 @@ body {
     color: black;
 }
 
-.two {}
-
-.three {}
-
-.four {}
-
 main {
     width: 100vh;
     height: 100vw;
@@ -66,12 +60,17 @@ main {
 }
 
 nav {
-    width: 150px;
+    width: 200px;
     height: 100vh;
     background: #D7C5AB;
     position: fixed;
-    left: 0;
+    left: -150px;
+    transition: 0.5s;
     z-index: 3;
+}
+
+.show-nav {
+    left: 0;
 }
 
 ul {
@@ -89,11 +88,13 @@ ul {
 .ul2 {
     height: 20vh;
     align-items: end;
+    margin-top: 50px;
 }
 
 li {
+    padding-left: 30px;
     list-style: none;
-    width: 100%;
+    width: 60%;
     text-align: center;
 }
 
