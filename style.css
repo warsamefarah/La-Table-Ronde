@@ -62,6 +62,7 @@ main {
 nav {
     width: 200px;
     height: 100vh;
+    font-family: Montserrat, sans-serif;
     background: #D7C5AB;
     position: fixed;
     left: -150px;
@@ -98,7 +99,16 @@ li {
     text-align: center;
 }
 
+.nav-item:hover {
+    background-color: #b9ab96;
+    transform: translateX(20px);
+    font-weight: 600;
+    transition: 0.5s ease;
+    border-right: 30px solid #fff;
+}
+
 a {
+    color: black;
     text-decoration: none;
     width: 100%;
     text-align: center;
