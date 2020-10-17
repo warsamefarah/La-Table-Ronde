@@ -16,6 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .one {
@@ -23,28 +24,76 @@ body {
     margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     box-sizing: border-box;
     align-content: start;
+    background: url(img/papier4.jpg);
+}
+
+.one-1 {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .one h1 {
     width: 100%;
     font-size: 80px;
-    text-align: right;
-    margin-right: 100px;
+    text-align: center;
     margin-top: 200px;
+    color: white;
 }
 
 .one a {
     width: 100%;
     font-size: 30px;
-    padding-left: 500px;
-    color: black;
+    color: white;
 }
 
-.two {}
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+}
 
-.three {}
+.two-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    align-content: start;
+    padding: 10px 50px 10px;
+    box-sizing: border-box;
+}
+
+.two-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+}
+
+.two-1 h1 {
+    margin-left: 10%;
+    width: 100%;
+    font-size: 60px;
+}
+
+.two p {
+    width: 100%;
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+.two-2 p {
+    margin-top: 27%;
+}
+
+.two-2 img {
+    height: 400px;
+}
+
+.two p .three {}
 
 .four {}
 
