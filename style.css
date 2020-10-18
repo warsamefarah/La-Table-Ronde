@@ -101,9 +101,13 @@ body {
     height: 400px;
 }
 
-.two p .three {}
 
-.four {}
+/* .two p{
+
+}
+ .three {}
+
+.four {} */
 
 main {
     width: 100vh;
