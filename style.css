@@ -217,3 +217,30 @@ a {
     width: 100%;
     text-align: center;
 }
+
+/*------------Trait animation svg-----------*/
+
+.svgffffff {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 800;
+    animation: draw 6s linear infinite;
+    margin-top: 10px;
+    color: white;
+}
+
+.svgffffff path {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+/*------------Trait animation svg-----------*/
