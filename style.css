@@ -227,8 +227,7 @@ a {
     stroke-dasharray: 400;
     stroke-dashoffset: 800;
     animation: draw 6s linear infinite;
-    margin-top: 10px;
-    color: white;
+    margin-top: 20px;
 }
 
 .svgffffff path {
