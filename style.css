@@ -20,8 +20,8 @@ body {
 }
 
 .one {
-    width: calc(100vw - 150px);
-    margin-left: 150px;
+    width: calc(100vw - 50px);
+    margin-left: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -32,14 +32,14 @@ body {
 
 .one-1 {
     display: flex;
-    width: 30%;
+    width: 40%;
     align-items: center;
     height: 100vh;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .one-2 {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -166,6 +166,7 @@ nav {
 .show-nav {
     left: 0;
 }
+
 
 /* #progress {
     position: fixed;
