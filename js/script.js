@@ -9,6 +9,16 @@ $(document).ready(function(){
         $('.chkbtn').show()
         $('nav').toggleClass('show-nav')
     })
+
+    $('ul.ul2 li a').click(function(){
+        let pattern = /#\w+/
+        let link = this.href
+        // console.log(link.match(pattern)[0])
+        $(link.match(pattern)[0]).toggleClass('show-about')
+    })
+    $('.rtnbtn').click(function(){
+        $(this.parentElement).toggleClass('show-about')
+    })
 });
 
 // window.onscroll = function() {
