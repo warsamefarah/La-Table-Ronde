@@ -19,6 +19,22 @@ $(document).ready(function(){
     $('.rtnbtn').click(function(){
         $(this.parentElement).toggleClass('show-about')
     })
+
+    $('#who').click(function(){
+        $('#who > p, #who > .team').slideToggle(200, function() {
+            if ($('#who > .team').is(':visible'))
+            $('#who > .team').css({'display': 'flex', 'flex-direction': 'row', 'justify-content': 'center', 'align-items': 'center'});
+        });
+        $('#what > p, #why > p').slideUp(200);
+    })
+    $('#what').click(function(){
+        $('#what > p').slideToggle(200);
+        $('#who > p, #why > p, #who > .team').slideUp(200);
+    })
+    $('#why').click(function(){
+        $('#why > p').slideToggle(200);
+        $('#what > p, #who > p, #who > .team').slideUp(200);
+    })
 });
 
 // window.onscroll = function() {
