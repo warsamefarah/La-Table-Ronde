@@ -171,8 +171,8 @@ a {
     background-color: #D7C5AB;
     position: absolute;
     top: 0;
-    left: -100vw;
-    transition: 0.5s;
+    left: -128vw;
+    transition: 0.5s ease;
     z-index: 2;
 }
 
@@ -228,13 +228,12 @@ a {
 .mlcontent {
     width: 70%;
     height: 80%;
-    margin: auto;
     padding: 20px 20px;
     margin: 30px 0 0 300px;
     overflow: auto;
-    text-align: left;
+    text-align: justify;
     background-color: #cab9a1;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .mlcontent::-webkit-scrollbar {

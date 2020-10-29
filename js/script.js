@@ -12,9 +12,17 @@ $(document).ready(function(){
 
     $('ul.ul2 li a').click(function(){
         let pattern = /#\w+/
+        let patterns = ['#about','#ml']
         let link = this.href
+        let match = link.match(pattern)[0]
         // console.log(link.match(pattern)[0])
-        $(link.match(pattern)[0]).toggleClass('show-about')
+        $(match).toggleClass('show-about')
+        if(match == patterns[0] && $(patterns[1]).hasClass('show-about')){
+            $(patterns[1]).removeClass('show-about')
+        }
+        if(match == patterns[1] && $(patterns[0]).hasClass('show-about')){
+            $(patterns[0]).removeClass('show-about')
+        }
     })
     $('.rtnbtn').click(function(){
         $(this.parentElement).toggleClass('show-about')
