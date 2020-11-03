@@ -218,6 +218,7 @@ a {
     text-align: center;
 }
 
+<<<<<<< HEAD
 /*------------Trait animation svg-----------*/
 
 .svgffffff {
@@ -243,3 +244,113 @@ a {
   }
 
 /*------------Trait animation svg-----------*/
+=======
+#about {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #D7C5AB;
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#ml {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #D7C5AB;
+    position: absolute;
+    top: 0;
+    left: -128vw;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+#questions {
+    height: 50%;
+}
+
+#about h2, #ml h2 {
+    padding: 20px 0 0 0;
+}
+
+#about h3 {
+    width: 15%;
+    height: 2rem;
+    text-align: left;
+    padding-left: 20%;
+    margin-top: 3rem;
+}
+
+#about h3:hover {
+    cursor: pointer;
+    transform: translateX(5px);
+    transition: 0.2s ease;
+}
+
+#about p{
+    width: 50%;
+    display: none;
+    text-align: left;
+    padding: 0 0 0 20%;
+}
+
+.team img {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team {
+    padding-left: 120px;
+    width: 85%;
+    margin: auto;
+    display: none;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mlcontent {
+    width: 70%;
+    height: 80%;
+    padding: 20px 20px;
+    margin: 30px 0 0 300px;
+    overflow: auto;
+    text-align: justify;
+    background-color: #cab9a1;
+    border-radius: 20px 20px 0 0;
+}
+
+.mlcontent::-webkit-scrollbar {
+    display: none;
+}
+
+.rtnbtn {
+    width: 40px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.rtnbtn:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+    background-color: #b9ab96;
+    border-radius: 50px;
+}
+
+#about.show-about, #ml.show-about {
+    left: 0;
+}
+>>>>>>> nav
