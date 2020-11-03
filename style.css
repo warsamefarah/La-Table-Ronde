@@ -218,7 +218,6 @@ a {
     text-align: center;
 }
 
-<<<<<<< HEAD
 /*------------Trait animation svg-----------*/
 
 .svgffffff {
@@ -244,7 +243,6 @@ a {
   }
 
 /*------------Trait animation svg-----------*/
-=======
 #about {
     text-align: center;
     font-family: Montserrat, sans-serif;
@@ -353,4 +351,3 @@ a {
 #about.show-about, #ml.show-about {
     left: 0;
 }
->>>>>>> nav
