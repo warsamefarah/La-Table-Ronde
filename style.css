@@ -27,23 +27,27 @@ body {
     justify-content: flex-end;
     box-sizing: border-box;
     align-content: start;
-    background: url(img/papier4.jpg);
+    background: url(img/Camelot.jpg);
+    background-size: cover;
 }
+.coverBlack{
+    width: 100%;
+    height : 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.493);
+    z-index : 1;
+    
+}
+
 
 .one-1 {
-    display: flex;
-    width: 40%;
-    align-items: center;
-    height: 100vh;
-    justify-content: flex-end;
-}
-
-.one-2 {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    z-index : 2;
+    margin-top : 150px;
 }
 
 .one h1 {
