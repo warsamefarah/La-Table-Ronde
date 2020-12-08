@@ -97,6 +97,11 @@ body {
     margin-left: 10%;
 }
 
+.two-1 p::first-letter{
+    font-size: 72px;
+    line-height:0 ;
+}
+
 .two-2 p {
     margin-top: 27%;
 }
@@ -169,6 +174,7 @@ nav {
 
 .show-nav {
     left: 0;
+    box-shadow: 22px 0px 15px rgba(0, 0, 0, 0.445);
 }
 
 
