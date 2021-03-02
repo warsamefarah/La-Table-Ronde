@@ -1,0 +1,115 @@
+main {
+    
+    .sect3 {
+
+        h2 {
+            margin-left: 10%;
+            width: 100%;
+            font-size: 60px;
+            font-family: 'MedievalSharp', cursive;
+        }
+
+        .art1 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 236vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Le fils illégitime';
+                position: inherit;
+                top: -300px;
+                font-family: 'MedievalSharp', cursive;
+                font-size: 1.5rem;
+            }
+        }
+
+        .art2 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 261vw;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+
+            img {
+                width: 400px;
+                height: auto;
+                box-shadow: 5px 5px 8px #0000004d;
+            }
+
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Content';
+                position: inherit;
+                bottom: -400px;
+                font-family: 'MedievalSharp', cursive;
+                font-size: 1.5rem;
+            }
+        }
+
+        .art3 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 286vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            padding: 0 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            font-size: 1.3rem;
+
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Une éducation simple';
+                position: inherit;
+                top: -200px;
+                font-family: 'MedievalSharp', cursive;
+                font-size: 1.5rem;
+            }
+        }
+
+        // .art4 {
+        //     width: 600px;
+        //     height: 300px;
+        //     background-color: $gold;
+        //     position: absolute;
+        //     left: 261vw;
+        //     bottom: 10%;
+        //     transform: translateX(-50%);
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     opacity: 1;
+        //     box-shadow: 10px 10px 8px #0000004d;
+        //     font-family: Roboto, sans-serif;
+        // }
+    }
+}

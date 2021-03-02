@@ -1,0 +1,51 @@
+main {
+
+    .sect2 {
+        display: flex;
+        flex-wrap: wrap;
+
+        .part1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 40%;
+            align-content: start;
+            padding: 10px 10px 10px;
+            box-sizing: border-box;
+
+            h2 {
+                margin-left: 10%;
+                width: 100%;
+                font-size: 60px;
+                font-family: 'MedievalSharp', cursive;
+            }
+            
+            p {
+                width: 100%;
+                font-size: 28px;
+                padding-top: 15%;
+                margin-left: 10%;
+                margin-right: -10%;
+                margin-top: 10%;
+                font-family: 'IM Fell English SC', serif;
+    
+                &::first-letter {
+                    font-size: 72px;
+                    line-height:0 ;
+                }
+            }
+        }
+
+        .part2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 60%;
+            justify-content: center;
+            padding-top: 10%;
+
+            img {
+                height: 500px;
+                z-index: 3;
+            }
+        }
+    }
+}
