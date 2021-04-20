@@ -473,6 +473,36 @@ main .sect3 .art3::before {
   font-size: 1.5rem;
 }
 
+main .sect4 h2 {
+  font-size: 60px;
+}
+main .sect4 .art4 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 236vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: Roboto, sans-serif;
+}
+main .sect4 .art4::before {
+  width: fit-content;
+  height: 200px;
+  content: "Le fils illégitime";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
 .svgffffff {
   width: 300px;
   max-width: 100%;
@@ -556,6 +586,17 @@ header nav ul li div {
   z-index: 1;
   position: absolute;
   left: 219vw;
+  bottom: 50%;
+  opacity: 0.5;
+}
+
+.line5 {
+  width: 81vw;
+  height: 30px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  left: 300vw;
   bottom: 50%;
   opacity: 0.5;
 }
@@ -649,6 +690,23 @@ header nav ul li div {
   transition: 0.2s ease;
 }
 .dot_3:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_4 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 315vw;
+  transition: 0.2s ease;
+}
+.dot_4:hover {
   transform: scale(1.4);
   transform-origin: center;
   transition: 0.2s ease;

@@ -1,0 +1,40 @@
+main {
+    .sect4 {
+
+        h2 {
+            font-size: 60px;
+        }
+
+
+        .art4 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 236vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: Roboto, sans-serif;
+
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Le fils illégitime';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+
+
+
+    }
+}
