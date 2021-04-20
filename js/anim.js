@@ -20,6 +20,15 @@ $(document).ready(function () {
         if ($('input[name=trois]').is(':checked')) {
           gsap.to('.art3', {opacity: 1, duration: 0.2, y: -50})
         }
+
+        if ($('input[name=quatre]').is(':checked')) {
+          gsap.to('.art4', {opacity: 1, duration: 0.2, y: -50})
+        }
+
+        if ($('input[name=cinq]').is(':checked')) {
+          gsap.to('.art5', {opacity: 1, duration: 0.2, y: -50})
+        }
+
     });
 
     $('.sect1 a').click(function() {
@@ -29,14 +38,15 @@ $(document).ready(function () {
     $('.sect2 a').click(function() {
       TweenMax.fromTo('.line3', {scaleX: 0, transformOrigin: '0 105%'}, {scaleX: 1, duration: 1, delay: 0.5, ease: 'power1.inOut'});
       TweenMax.fromTo('.line4', {scaleX: 0, transformOrigin: '0 105%'}, {scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut'});
+      TweenMax.fromTo('.line5', {scaleX: 0, transformOrigin: '0 105%'}, {scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut'});
       })
 
     $(document).click(function (e) {
         if (!$(e.target).hasClass('dot')) {
           $('input[type=radio]').prop( "checked", false );
           $('.dot').removeClass('dot-color');
-          gsap.to('.art2', {opacity: 0, duration: 0.2, y: -50})
-          gsap.to('.art3, .art1', {opacity: 0, duration: 0.2, y: 50})
+          gsap.to('.art2', 'art5',  {opacity: 0, duration: 0.2, y: -50})
+          gsap.to('.art3, .art1', 'art4',  {opacity: 0, duration: 0.2, y: 50})
         }
     });
 });

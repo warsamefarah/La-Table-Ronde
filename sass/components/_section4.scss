@@ -3,6 +3,7 @@ main {
 
         h2 {
             font-size: 60px;
+            font-family: 'MedievalSharp', cursive;
         }
 
 
@@ -11,7 +12,7 @@ main {
             height: 300px;
             background-color: $gold;
             position: absolute;
-            left: 236vw;
+            left: 320vw;
             bottom: 10%;
             transform: translateX(-50%);
             display: flex;
@@ -21,15 +22,47 @@ main {
             padding: 0 3rem;
             font-size: 1rem;
             box-shadow: 10px 10px 8px #0000004d;
-            font-family: Roboto, sans-serif;
+            font-family: 'IM Fell English SC', serif;
 
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'Le fils illégitime';
+                content: 'Une épée (pas si) légendaire';
                 position: inherit;
                 top: -300px;
                 font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+
+
+        .art5 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 341vw;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+
+            img {
+                width: 400px;
+                height: auto;
+                box-shadow: 5px 5px 8px #0000004d;
+            }
+
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'L épée d arthur';
+                position: inherit;
+                bottom: -400px;
+                font-family: 'MedievalSharp', cursive;
                 font-size: 1.5rem;
             }
         }
