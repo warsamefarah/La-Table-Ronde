@@ -33,6 +33,11 @@ $(document).ready(function () {
           gsap.to('.art6', {opacity: 1, duration: 0.2, y: -50})
         }
 
+        if ($('input[name=sept]').is(':checked')) {
+          gsap.to('.art7', {opacity: 1, duration: 0.2, y: -50})
+        }
+        
+
     });
 
     $('.sect1 a').click(function() {
@@ -49,8 +54,8 @@ $(document).ready(function () {
         if (!$(e.target).hasClass('dot')) {
           $('input[type=radio]').prop( "checked", false );
           $('.dot').removeClass('dot-color');
-          gsap.to('.art2', 'art5',  {opacity: 0, duration: 0.2, y: -50})
-          gsap.to('.art3, .art1', 'art4', 'art6',  {opacity: 0, duration: 0.2, y: 50})
+          gsap.to('.art2', 'art5', 'art7',    {opacity: 0, duration: 0.2, y: -50})
+          gsap.to('.art3, .art1', 'art4', 'art6', {opacity: 0, duration: 0.2, y: 50})
         }
     });
 });
