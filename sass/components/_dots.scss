@@ -91,6 +91,25 @@
     }
 }
 
+
+.dot_6 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 364vw;
+    transition: $base ease;
+
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
 .dot {
     input[type=radio] {
         display: none;
