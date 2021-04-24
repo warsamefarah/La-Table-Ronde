@@ -1,15 +1,15 @@
 main {
-    .sect5 {
+    .sect6 {
         h2 {
             font-size: 60px;
             font-family: 'MedievalSharp', cursive;
         }
-        .art8 {
+        .art12 {
             width: 600px;
             height: 300px;
             background-color: $gold;
             position: absolute;
-            left: 415vw;
+            left: 515vw;
             bottom: 10%;
             transform: translateX(-50%);
             display: flex;
@@ -23,19 +23,19 @@ main {
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'Les origines de la Table Ronde';
+                content: 'Les origines du Graal';
                 position: inherit;
                 top: -300px;
                 font-family: Montserrat, sans-serif;
                 font-size: 1.5rem;
             }
         }
-        .art9 {
+        .art13 {
             width: 600px;
             height: 300px;
             background-color: $gold;
             position: absolute;
-            left: 440vw;
+            left: 540vw;
             transform: translateX(-50%);
             display: flex;
             justify-content: center;
@@ -51,19 +51,19 @@ main {
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'Excalibur';
+                content: 'Graal';
                 position: inherit;
                 bottom: -400px;
                 font-family: 'MedievalSharp', cursive;
                 font-size: 1.5rem;
             }
         }
-        .art10 {
+        .art14 {
             width: 600px;
             height: 300px;
             background-color: $gold;
             position: absolute;
-            left: 465vw;
+            left: 565vw;
             bottom: 10%;
             transform: translateX(-50%);
             display: flex;
@@ -77,19 +77,19 @@ main {
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'Les chevaliers de la Table Ronde';
+                content: 'L’aventure de Perceval';
                 position: inherit;
                 top: -300px;
                 font-family: Montserrat, sans-serif;
                 font-size: 1.5rem;
             }
         }
-        .art11 {
+        .art15 {
             width: 600px;
             height: 300px;
             background-color: $gold;
             position: absolute;
-            left: 490vw;
+            left: 590vw;
             bottom: 10%;
             transform: translateX(-50%);
             display: flex;
@@ -103,7 +103,7 @@ main {
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'L’épée la plus légendaire';
+                content: 'La destinée de Perceval';
                 position: inherit;
                 top: -300px;
                 font-family: Montserrat, sans-serif;

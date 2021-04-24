@@ -52,6 +52,21 @@ $(document).ready(function() {
         if ($('input[name=onze]').is(':checked')) {
             gsap.to('.art11', { opacity: 1, duration: 0.2, y: -50 })
         }
+        if ($('input[name=douze]').is(':checked')) {
+            gsap.to('.art12', { opacity: 1, duration: 0.2, y: -50 })
+        }
+
+        if ($('input[name=treize]').is(':checked')) {
+            gsap.to('.art13', { opacity: 1, duration: 0.2, y: -50 })
+        }
+
+        if ($('input[name=quatorze]').is(':checked')) {
+            gsap.to('.art14', { opacity: 1, duration: 0.2, y: -50 })
+        }
+
+        if ($('input[name=quinze]').is(':checked')) {
+            gsap.to('.art15', { opacity: 1, duration: 0.2, y: -50 })
+        }
 
     });
 
@@ -64,14 +79,15 @@ $(document).ready(function() {
         TweenMax.fromTo('.line4', { scaleX: 0, transformOrigin: '0 105%' }, { scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut' });
         TweenMax.fromTo('.line5', { scaleX: 0, transformOrigin: '0 105%' }, { scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut' });
         TweenMax.fromTo('.line6', { scaleX: 0, transformOrigin: '0 105%' }, { scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut' });
+        TweenMax.fromTo('.line7', { scaleX: 0, transformOrigin: '0 105%' }, { scaleX: 1, duration: 1, delay: 1.4, ease: 'power1.inOut' });
     })
 
     $(document).click(function(e) {
         if (!$(e.target).hasClass('dot')) {
             $('input[type=radio]').prop("checked", false);
             $('.dot').removeClass('dot-color');
-            gsap.to('.art2', 'art5', 'art7', 'art8', 'art9', { opacity: 0, duration: 0.2, y: -50 })
-            gsap.to('.art3, .art1', 'art4', 'art6', 'art10', 'art11', { opacity: 0, duration: 0.2, y: 50 })
+            gsap.to('.art2', 'art5', '.art7', 'art8', 'art9', 'art12', 'art14', { opacity: 0, duration: 0.2, y: -50 })
+            gsap.to('.art3, .art1', 'art4', 'art6', 'art10', 'art11', 'art13', 'art15', { opacity: 0, duration: 0.2, y: 50 })
         }
     });
 });

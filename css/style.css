@@ -584,9 +584,6 @@ main .sect4 .art7::before {
   font-size: 1.5rem;
 }
 
-main .sect5 {
-  padding-left: 400px;
-}
 main .sect5 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
@@ -698,6 +695,117 @@ main .sect5 .art11::before {
   font-size: 1.5rem;
 }
 
+main .sect6 h2 {
+  font-size: 60px;
+  font-family: "MedievalSharp", cursive;
+}
+main .sect6 .art12 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 515vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect6 .art12::before {
+  width: fit-content;
+  height: 200px;
+  content: "Les origines du Graal";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect6 .art13 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 540vw;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect6 .art13 img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 8px #0000004d;
+}
+main .sect6 .art13::before {
+  width: fit-content;
+  height: 200px;
+  content: "Graal";
+  position: inherit;
+  bottom: -400px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.5rem;
+}
+main .sect6 .art14 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 565vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect6 .art14::before {
+  width: fit-content;
+  height: 200px;
+  content: "L’aventure de Perceval";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect6 .art15 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 590vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect6 .art15::before {
+  width: fit-content;
+  height: 200px;
+  content: "La destinée de Perceval";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
 .svgffffff {
   width: 300px;
   max-width: 100%;
@@ -799,10 +907,21 @@ header nav ul li div {
 .line6 {
   width: 101vw;
   height: 30px;
-  background-color: blue;
+  background-color: black;
   z-index: 1;
   position: absolute;
   left: 401vw;
+  bottom: 50%;
+  opacity: 0.5;
+}
+
+.line7 {
+  width: 101vw;
+  height: 30px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  left: 501vw;
   bottom: 50%;
   opacity: 0.5;
 }
@@ -860,6 +979,17 @@ header nav ul li div {
   position: absolute;
   bottom: 49%;
   left: 399vw;
+}
+
+.circle6 {
+  width: 45px;
+  height: 45px;
+  background-color: #53082F;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  bottom: 49%;
+  left: 499.5vw;
 }
 
 .dot_1 {
@@ -1043,6 +1173,74 @@ header nav ul li div {
   transition: 0.2s ease;
 }
 .dot_11:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_12 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 510vw;
+  transition: 0.2s ease;
+}
+.dot_12:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_13 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 530vw;
+  transition: 0.2s ease;
+}
+.dot_13:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_14 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 550vw;
+  transition: 0.2s ease;
+}
+.dot_14:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_15 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 575vw;
+  transition: 0.2s ease;
+}
+.dot_15:hover {
   transform: scale(1.4);
   transform-origin: center;
   transition: 0.2s ease;

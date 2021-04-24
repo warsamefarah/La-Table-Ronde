@@ -58,10 +58,21 @@
 .line6 {
     width: 101vw;
     height: 30px;
-    background-color: blue;
+    background-color: black;
     z-index: 1;
     position: absolute;
     left: 401vw;
+    bottom: 50%;
+    opacity: 0.5;
+}
+
+.line7 {
+    width: 101vw;
+    height: 30px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    left: 501vw;
     bottom: 50%;
     opacity: 0.5;
 }
