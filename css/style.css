@@ -584,6 +584,117 @@ main .sect4 .art7::before {
   font-size: 1.5rem;
 }
 
+main .sect5 h2 {
+  font-size: 60px;
+  font-family: "MedievalSharp", cursive;
+}
+main .sect5 .art8 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 320vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect5 .art8::before {
+  width: fit-content;
+  height: 200px;
+  content: "Une épée (pas si) légendaire";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect5 .art9 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 341vw;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect5 .art9 img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 8px #0000004d;
+}
+main .sect5 .art9::before {
+  width: fit-content;
+  height: 200px;
+  content: "L épée d arthur";
+  position: inherit;
+  bottom: -400px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.5rem;
+}
+main .sect5 .art10 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 365vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect5 .art10::before {
+  width: fit-content;
+  height: 200px;
+  content: "Le nouveau roi et l’unification de la Bretagne";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect5 .art11 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 390vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect5 .art11::before {
+  width: fit-content;
+  height: 200px;
+  content: "L’épée la plus légendaire";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
 .svgffffff {
   width: 300px;
   max-width: 100%;
@@ -682,6 +793,17 @@ header nav ul li div {
   opacity: 0.5;
 }
 
+.line6 {
+  width: 101vw;
+  height: 30px;
+  background-color: blue;
+  z-index: 1;
+  position: absolute;
+  left: 379vw;
+  bottom: 50%;
+  opacity: 0.5;
+}
+
 .circle1 {
   width: 45px;
   height: 45px;
@@ -724,6 +846,17 @@ header nav ul li div {
   position: absolute;
   bottom: 49%;
   left: 299.5vw;
+}
+
+.circle5 {
+  width: 45px;
+  height: 45px;
+  background-color: #53082F;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  bottom: 49%;
+  left: 317.5vw;
 }
 
 .dot_1 {
@@ -839,6 +972,74 @@ header nav ul li div {
   transition: 0.2s ease;
 }
 .dot_7:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_8 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 405vw;
+  transition: 0.2s ease;
+}
+.dot_8:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_9 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 425vw;
+  transition: 0.2s ease;
+}
+.dot_9:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_10 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 445vw;
+  transition: 0.2s ease;
+}
+.dot_10:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_11 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 465vw;
+  transition: 0.2s ease;
+}
+.dot_11:hover {
   transform: scale(1.4);
   transform-origin: center;
   transition: 0.2s ease;

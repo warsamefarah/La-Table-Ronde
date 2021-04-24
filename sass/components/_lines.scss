@@ -44,7 +44,6 @@
     opacity: 0.5;
 }
 
-
 .line5 {
     width: 101vw;
     height: 30px;
@@ -52,6 +51,17 @@
     z-index: 1;
     position: absolute;
     left: 300vw;
+    bottom: 50%;
+    opacity: 0.5;
+}
+
+.line6 {
+    width: 101vw;
+    height: 30px;
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+    left: 379vw;
     bottom: 50%;
     opacity: 0.5;
 }
