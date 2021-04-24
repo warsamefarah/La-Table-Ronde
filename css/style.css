@@ -577,13 +577,16 @@ main .sect4 .art7 {
 main .sect4 .art7::before {
   width: fit-content;
   height: 200px;
-  content: "L’épée la plus légendaire";
+  content: "Premières batailles";
   position: inherit;
   top: -300px;
   font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
 }
 
+main .sect5 {
+  padding-left: 400px;
+}
 main .sect5 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
@@ -593,7 +596,7 @@ main .sect5 .art8 {
   height: 300px;
   background-color: #FFD166;
   position: absolute;
-  left: 320vw;
+  left: 415vw;
   bottom: 10%;
   transform: translateX(-50%);
   display: flex;
@@ -608,7 +611,7 @@ main .sect5 .art8 {
 main .sect5 .art8::before {
   width: fit-content;
   height: 200px;
-  content: "Une épée (pas si) légendaire";
+  content: "Les origines de la Table Ronde";
   position: inherit;
   top: -300px;
   font-family: Montserrat, sans-serif;
@@ -619,7 +622,7 @@ main .sect5 .art9 {
   height: 300px;
   background-color: #FFD166;
   position: absolute;
-  left: 341vw;
+  left: 440vw;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -636,7 +639,7 @@ main .sect5 .art9 img {
 main .sect5 .art9::before {
   width: fit-content;
   height: 200px;
-  content: "L épée d arthur";
+  content: "Excalibur";
   position: inherit;
   bottom: -400px;
   font-family: "MedievalSharp", cursive;
@@ -647,7 +650,7 @@ main .sect5 .art10 {
   height: 300px;
   background-color: #FFD166;
   position: absolute;
-  left: 365vw;
+  left: 465vw;
   bottom: 10%;
   transform: translateX(-50%);
   display: flex;
@@ -662,7 +665,7 @@ main .sect5 .art10 {
 main .sect5 .art10::before {
   width: fit-content;
   height: 200px;
-  content: "Le nouveau roi et l’unification de la Bretagne";
+  content: "Les chevaliers de la Table Ronde";
   position: inherit;
   top: -300px;
   font-family: Montserrat, sans-serif;
@@ -673,7 +676,7 @@ main .sect5 .art11 {
   height: 300px;
   background-color: #FFD166;
   position: absolute;
-  left: 390vw;
+  left: 490vw;
   bottom: 10%;
   transform: translateX(-50%);
   display: flex;
@@ -799,7 +802,7 @@ header nav ul li div {
   background-color: blue;
   z-index: 1;
   position: absolute;
-  left: 379vw;
+  left: 401vw;
   bottom: 50%;
   opacity: 0.5;
 }
@@ -856,7 +859,7 @@ header nav ul li div {
   z-index: 2;
   position: absolute;
   bottom: 49%;
-  left: 317.5vw;
+  left: 399vw;
 }
 
 .dot_1 {
@@ -985,7 +988,7 @@ header nav ul li div {
   z-index: 2;
   position: absolute;
   bottom: 50%;
-  left: 405vw;
+  left: 415vw;
   transition: 0.2s ease;
 }
 .dot_8:hover {
@@ -1002,7 +1005,7 @@ header nav ul li div {
   z-index: 2;
   position: absolute;
   bottom: 50%;
-  left: 425vw;
+  left: 435vw;
   transition: 0.2s ease;
 }
 .dot_9:hover {
@@ -1019,7 +1022,7 @@ header nav ul li div {
   z-index: 2;
   position: absolute;
   bottom: 50%;
-  left: 445vw;
+  left: 455vw;
   transition: 0.2s ease;
 }
 .dot_10:hover {
@@ -1036,7 +1039,7 @@ header nav ul li div {
   z-index: 2;
   position: absolute;
   bottom: 50%;
-  left: 465vw;
+  left: 485vw;
   transition: 0.2s ease;
 }
 .dot_11:hover {

@@ -1,12 +1,9 @@
 main {
     .sect4 {
-
         h2 {
             font-size: 60px;
             font-family: 'MedievalSharp', cursive;
         }
-
-
         .art4 {
             width: 600px;
             height: 300px;
@@ -23,7 +20,6 @@ main {
             font-size: 1rem;
             box-shadow: 10px 10px 8px #0000004d;
             font-family: 'IM Fell English SC', serif;
-
             &::before {
                 width: fit-content;
                 height: 200px;
@@ -34,8 +30,6 @@ main {
                 font-size: 1.5rem;
             }
         }
-
-
         .art5 {
             width: 600px;
             height: 300px;
@@ -49,13 +43,11 @@ main {
             opacity: 0;
             box-shadow: 10px 10px 8px #0000004d;
             font-family: 'IM Fell English SC', serif;
-
             img {
                 width: 250px;
                 height: 250px;
                 box-shadow: 5px 5px 8px #0000004d;
             }
-
             &::before {
                 width: fit-content;
                 height: 200px;
@@ -66,8 +58,6 @@ main {
                 font-size: 1.5rem;
             }
         }
-
-
         .art6 {
             width: 600px;
             height: 300px;
@@ -84,7 +74,6 @@ main {
             font-size: 1rem;
             box-shadow: 10px 10px 8px #0000004d;
             font-family: 'IM Fell English SC', serif;
-
             &::before {
                 width: fit-content;
                 height: 200px;
@@ -95,9 +84,6 @@ main {
                 font-size: 1.5rem;
             }
         }
-
-
-
         .art7 {
             width: 600px;
             height: 300px;
@@ -114,19 +100,15 @@ main {
             font-size: 1rem;
             box-shadow: 10px 10px 8px #0000004d;
             font-family: 'IM Fell English SC', serif;
-
             &::before {
                 width: fit-content;
                 height: 200px;
-                content: 'L’épée la plus légendaire';
+                content: 'Premières batailles';
                 position: inherit;
                 top: -300px;
                 font-family: Montserrat, sans-serif;
                 font-size: 1.5rem;
             }
         }
-
-
-
     }
 }
