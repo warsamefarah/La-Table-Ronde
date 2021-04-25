@@ -310,7 +310,7 @@ main .sect1 {
   justify-content: flex-end;
   box-sizing: border-box;
   align-content: start;
-  background: url(../../assets/img/Camelot.jpg);
+  background-image: url(../../assets/img/Camelot.jpg);
   background-size: cover;
 }
 main .sect1 .title {
@@ -806,6 +806,202 @@ main .sect6 .art15::before {
   font-size: 1.5rem;
 }
 
+main .sect7 h2 {
+  font-size: 60px;
+  font-family: "MedievalSharp", cursive;
+}
+main .sect7 .art16 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 615vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect7 .art16::before {
+  width: fit-content;
+  height: 200px;
+  content: "L’allié le plus fidèle d’Arthur";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect7 .art17 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 640vw;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect7 .art17 img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 8px #0000004d;
+}
+main .sect7 .art17::before {
+  width: fit-content;
+  height: 200px;
+  content: "Lancelot";
+  position: inherit;
+  bottom: -400px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.5rem;
+}
+main .sect7 .art18 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 665vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect7 .art18::before {
+  width: fit-content;
+  height: 200px;
+  content: "L’adultère de la reine Guenièvre";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
+main .sect8 h2 {
+  font-size: 60px;
+  font-family: "MedievalSharp", cursive;
+}
+main .sect8 .art19 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 715vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect8 .art19::before {
+  width: fit-content;
+  height: 200px;
+  content: "La naissance de Mordred";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect8 .art20 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 740vw;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect8 .art20 img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 8px #0000004d;
+}
+main .sect8 .art20::before {
+  width: fit-content;
+  height: 200px;
+  content: "Bataille d’Arthur";
+  position: inherit;
+  bottom: -400px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.5rem;
+}
+main .sect8 .art21 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 765vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect8 .art21::before {
+  width: fit-content;
+  height: 200px;
+  content: "Le coup d’état";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+main .sect8 .art22 {
+  width: 600px;
+  height: 300px;
+  background-color: #FFD166;
+  position: absolute;
+  left: 790vw;
+  bottom: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 0 3rem;
+  font-size: 1rem;
+  box-shadow: 10px 10px 8px #0000004d;
+  font-family: "IM Fell English SC", serif;
+}
+main .sect8 .art22::before {
+  width: fit-content;
+  height: 200px;
+  content: "La mort du roi";
+  position: inherit;
+  top: -300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
 .svgffffff {
   width: 300px;
   max-width: 100%;
@@ -926,6 +1122,28 @@ header nav ul li div {
   opacity: 0.5;
 }
 
+.line8 {
+  width: 75vw;
+  height: 30px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  left: 601vw;
+  bottom: 50%;
+  opacity: 0.5;
+}
+
+.line9 {
+  width: 101vw;
+  height: 30px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  left: 676vw;
+  bottom: 50%;
+  opacity: 0.5;
+}
+
 .circle1 {
   width: 45px;
   height: 45px;
@@ -990,6 +1208,28 @@ header nav ul li div {
   position: absolute;
   bottom: 49%;
   left: 500vw;
+}
+
+.circle7 {
+  width: 45px;
+  height: 45px;
+  background-color: #53082F;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  bottom: 49%;
+  left: 600vw;
+}
+
+.circle8 {
+  width: 45px;
+  height: 45px;
+  background-color: #53082F;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  bottom: 49%;
+  left: 675vw;
 }
 
 .dot_1 {
@@ -1241,6 +1481,125 @@ header nav ul li div {
   transition: 0.2s ease;
 }
 .dot_15:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_16 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 615vw;
+  transition: 0.2s ease;
+}
+.dot_16:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_17 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 640vw;
+  transition: 0.2s ease;
+}
+.dot_17:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_18 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 660vw;
+  transition: 0.2s ease;
+}
+.dot_18:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_19 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 700vw;
+  transition: 0.2s ease;
+}
+.dot_19:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_20 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 725vw;
+  transition: 0.2s ease;
+}
+.dot_20:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_21 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 750vw;
+  transition: 0.2s ease;
+}
+.dot_21:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.dot_22 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  bottom: 50%;
+  left: 775vw;
+  transition: 0.2s ease;
+}
+.dot_22:hover {
   transform: scale(1.4);
   transform-origin: center;
   transition: 0.2s ease;

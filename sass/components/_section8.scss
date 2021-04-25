@@ -1,0 +1,114 @@
+main {
+    .sect8 {
+        h2 {
+            font-size: 60px;
+            font-family: 'MedievalSharp', cursive;
+        }
+        .art19 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 715vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'La naissance de Mordred';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+        .art20 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 740vw;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            img {
+                width: 250px;
+                height: 250px;
+                box-shadow: 5px 5px 8px #0000004d;
+            }
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Bataille d’Arthur';
+                position: inherit;
+                bottom: -400px;
+                font-family: 'MedievalSharp', cursive;
+                font-size: 1.5rem;
+            }
+        }
+        .art21 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 765vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Le coup d’état';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+        .art22 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 790vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'La mort du roi';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

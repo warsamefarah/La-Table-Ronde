@@ -253,6 +253,125 @@
     }
 }
 
+.dot_16 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 615vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_17 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 640vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_18 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 660vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_19 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 700vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_20 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 725vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_21 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 750vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
+.dot_22 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+    left: 775vw;
+    transition: $base ease;
+    &:hover {
+        transform: scale(1.4);
+        transform-origin: center;
+        transition: $base ease;
+        cursor: pointer;
+    }
+}
+
 .dot {
     input[type=radio] {
         display: none;

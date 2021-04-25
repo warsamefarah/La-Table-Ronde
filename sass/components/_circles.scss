@@ -63,3 +63,25 @@
     bottom: 49%;
     left: 500vw;
 }
+
+.circle7 {
+    width: 45px;
+    height: 45px;
+    background-color: $darkvio;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    bottom: 49%;
+    left: 600vw;
+}
+
+.circle8 {
+    width: 45px;
+    height: 45px;
+    background-color: $darkvio;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    bottom: 49%;
+    left: 675vw;
+}
