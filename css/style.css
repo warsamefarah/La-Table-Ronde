@@ -373,6 +373,8 @@ main .sect2 .part1 p {
 main .sect2 .part1 p::first-letter {
   font-size: 72px;
   line-height: 0;
+  font-family: 'UnifrakturMaguntia', cursive;
+  
 }
 main .sect2 .part2 {
   display: flex;
