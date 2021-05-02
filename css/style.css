@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  width: 400vw;
+  width: 800vw;
   height: 100%;
   background: url(../../assets/img/papier2.jpg);
 }
@@ -58,7 +58,7 @@ a {
 }
 .container main {
   display: flex;
-  width: 400vw;
+  width: 800vw;
   transform-origin: top left;
 }
 .container main section {
@@ -132,7 +132,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6rem;
+  height: 5rem;
   list-style: none;
   width: 100%;
   text-align: center;
@@ -160,7 +160,7 @@ header nav .ul1 {
 header nav .ul2 {
   height: 20vh;
   align-items: end;
-  margin-top: 250px;
+  margin-top: 50px;
 }
 header #about {
   text-align: center;
@@ -476,6 +476,7 @@ main .sect3 .art3::before {
 main .sect4 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect4 .art4 {
   width: 600px;
@@ -1031,7 +1032,7 @@ header nav ul li div {
   background-color: #593C8F;
   color: #FFD166;
   width: 200px;
-  height: 6rem;
+  height: 5rem;
   position: absolute;
   left: 150px;
   display: flex;
