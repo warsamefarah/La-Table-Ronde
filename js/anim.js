@@ -114,8 +114,9 @@ $(document).ready(function() {
         if (!$(e.target).hasClass('dot')) {
             $('input[type=radio]').prop("checked", false);
             $('.dot').removeClass('dot-color');
-            gsap.to('.art2', 'art5', '.art7', 'art8', 'art9', 'art12', 'art14', 'art16', 'art19', { opacity: 0, duration: 0.2, y: -50 })
-            gsap.to('.art3, .art1', 'art4', 'art6', 'art10', 'art11', 'art13', 'art15', 'art17', 'art18', 'art20', 'art21', 'art22', { opacity: 0, duration: 0.2, y: 50 })
+            // gsap.fromTo('.art2', '.art5', '.art7', '.art8', '.art9', '.art12', '.art14', '.art16', '.art19', { opacity: 1 }, { opacity: 0, duration: 0.2, y: -50 })
+            // gsap.fromTo('.art3', '.art1', '.art4', '.art6', '.art10', '.art11', '.art13', '.art15', '.art17', '.art18', '.art20', '.art21', '.art22', { opacity: 1 }, { opacity: 0, duration: 0.2, y: 50 })
+            gsap.to('.art', {opacity: 0})
         }
     });
 });

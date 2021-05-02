@@ -391,6 +391,7 @@ main .sect3 h2 {
   width: 100%;
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect3 .art1 {
   width: 600px;
@@ -588,6 +589,7 @@ main .sect4 .art7::before {
 main .sect5 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect5 .art8 {
   width: 600px;
@@ -699,6 +701,7 @@ main .sect5 .art11::before {
 main .sect6 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect6 .art12 {
   width: 600px;
@@ -810,6 +813,7 @@ main .sect6 .art15::before {
 main .sect7 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect7 .art16 {
   width: 600px;
@@ -895,6 +899,7 @@ main .sect7 .art18::before {
 main .sect8 h2 {
   font-size: 60px;
   font-family: "MedievalSharp", cursive;
+  padding: 2%;
 }
 main .sect8 .art19 {
   width: 600px;
