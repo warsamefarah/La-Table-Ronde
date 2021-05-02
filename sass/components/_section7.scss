@@ -1,0 +1,88 @@
+main {
+    .sect7 {
+        h2 {
+            font-size: 60px;
+            font-family: 'MedievalSharp', cursive;
+        }
+        .art16 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 615vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'L’allié le plus fidèle d’Arthur';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+        .art17 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 640vw;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            img {
+                width: 250px;
+                height: 250px;
+                box-shadow: 5px 5px 8px #0000004d;
+            }
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'Lancelot';
+                position: inherit;
+                bottom: -400px;
+                font-family: 'MedievalSharp', cursive;
+                font-size: 1.5rem;
+            }
+        }
+        .art18 {
+            width: 600px;
+            height: 300px;
+            background-color: $gold;
+            position: absolute;
+            left: 665vw;
+            bottom: 10%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            padding: 0 3rem;
+            font-size: 1rem;
+            box-shadow: 10px 10px 8px #0000004d;
+            font-family: 'IM Fell English SC', serif;
+            &::before {
+                width: fit-content;
+                height: 200px;
+                content: 'L’adultère de la reine Guenièvre';
+                position: inherit;
+                top: -300px;
+                font-family: Montserrat, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
